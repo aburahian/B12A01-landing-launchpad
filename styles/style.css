@@ -203,7 +203,7 @@ border: 1px solid rgb(255, 255, 255);
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
-    background-image: linear-gradient(to bottom,#c2bfbfaf 20%,#ffffff);
+    background-color: rgba(168, 197, 197, 0.452);
 }
 .newsletter-title h2{
     font-size: 97px;
@@ -295,5 +295,6 @@ footer{
 }
 .footer ul li a:hover{
     color: rgba(78, 71, 255, 1);
+    font-size: 25px;
 }
 /* share style */
