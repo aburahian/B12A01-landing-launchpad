@@ -12,6 +12,8 @@
 .navbar-banner{
     width: 1440px;
     height: 698px;
+    background-image: url(../Assets/Hero-bg.png);
+    background-position: 100%;
 }
 nav{
     width: 1140px;
@@ -76,17 +78,24 @@ nav input[type="button"]{
     height: 306px;
     margin: auto;
     margin-top: 116px;
+    background-image: linear-gradient(to bottom, blue -350%,#ffffff);
+    border-radius: 10px;
+border: 1px solid rgb(255, 255, 255);
 }
 .productive-user-item{
     width: 856px;
     height: 206px;
     margin: auto;
+    margin: 50px auto;
+   
 }
 .productive-user-title {
     font-size: 38px;
     font-weight: bold;
     color: rgba(37, 36, 50, 1);
     text-align: center;
+    margin-bottom: -40px;
+    
 }
 .productive-user-info{
     display: flex;
@@ -94,13 +103,64 @@ nav input[type="button"]{
     text-align: center;
 }
 .productive-user-info h2{
-    font-size: 80px;
+    font-size: 40px;
     font-weight: bold;
     color: rgba(78, 71, 255, 1);
     margin-bottom: 0px;
 
 }
 /* productive-user */
+/* review */
+.review{
+    width: 1140px;
+    height: 342px;
+    margin: auto;
+    margin-top: 137px;
+}
+.review-title{
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: rgba(37, 36, 50, 1);
+}
+.review-user-cards{
+    width: 1140px;
+    height: 234px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #d4cdcd9d;
+}
+.review-user-card{
+    height: 243px;
+    width: 366px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.review-title-text{
+    width: 318px;
+    height: 81px;
+}
+.review-title-text p{
+    color: rgba(30, 30, 30, 1);
+}
+.reviewer{
+    width: 318px;
+    height: 46px;
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+.reviewer-name{
+    width: 266px;
+    height: 46px;
+    margin: 0px;
+}
+.reviewer-name p{
+    margin-bottom: -20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* review */
 /* share style */
 .logo-text-color{
    color:  rgba(78, 71, 255, 1);
