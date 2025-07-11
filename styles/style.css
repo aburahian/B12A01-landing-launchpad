@@ -6,8 +6,6 @@
   font-variation-settings:
     "wdth" 100;
 }
-
-
 /* header start */
 .navbar-banner{
     width: 1440px;
@@ -129,13 +127,14 @@ border: 1px solid rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    background-color: #d4cdcd9d;
+    
 }
 .review-user-card{
-    height: 243px;
+    height: 210px;
     width: 366px;
-    margin-left: 24px;
-    margin-top: 24px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d4cdcd9d;
 }
 .review-title-text{
     width: 318px;
@@ -161,12 +160,86 @@ border: 1px solid rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.5);
 }
 /* review */
+/* focus */
+.focus{
+    width: 1140px;
+    height: 696px;
+    margin: auto;
+    margin-top: 116px;
+   background-color: aliceblue;
+}
+.focus-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.focus-items h2{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000;
+    margin-top: 70px;
+}
+.focus-items p{
+    margin-top: -14px;
+    color: rgba(37, 36, 50, 0.5);
+}
+.focus-items input{
+    width: 195px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+.focus-items img{
+    border-radius: 30px;
+}
+/* focus */
+/* newsletter */
+.newsletter{
+    width: 1140px;
+    height: 632px;
+    margin: auto;
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.newsletter-title h2{
+    font-size: 97px;
+    font-weight: bold;
+    line-height: 120%;
+    color: #000000;
+}
+.newsletter-form form{
+    display: flex;
+    flex-direction: column;
+    width: 497px;
+    height: 490px;
+    
+}
+.newsletter-form form input{
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.newsletter-form form label{
+    height: 22px;
+    font-size: 18px;
+    line-height: 120%;
+}
+.newsletter-form form textarea{
+    border: none;
+   border-radius: 10px;
+}
+/* newsletter */
 /* share style */
 .logo-text-color{
    color:  rgba(78, 71, 255, 1);
 }
 .button-color-radius{
     background-color: rgba(78, 71, 255, 1);
+    color: #ffffff;
     border: none;
     border-radius: 6px;
 }
