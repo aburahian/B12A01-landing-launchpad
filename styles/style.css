@@ -200,39 +200,81 @@ border: 1px solid rgb(255, 255, 255);
     margin: auto;
     margin-top: 92px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     border-radius: 20px;
+    background-image: linear-gradient(to bottom,#c2bfbfaf 20%,#ffffff);
 }
 .newsletter-title h2{
     font-size: 97px;
     font-weight: bold;
     line-height: 120%;
     color: #000000;
+    margin-left: 10px;
 }
 .newsletter-form form{
     display: flex;
     flex-direction: column;
     width: 497px;
     height: 490px;
+    margin-right: 40px;
     
 }
 .newsletter-form form input{
     height: 70px;
     border: none;
     border-radius: 10px;
+    margin-bottom: 10px;
     
 }
 .newsletter-form form label{
     height: 22px;
     font-size: 18px;
     line-height: 120%;
+    margin-bottom: 10px;
 }
 .newsletter-form form textarea{
     border: none;
    border-radius: 10px;
+   margin-bottom: 10px;
 }
 /* newsletter */
+/* footer */
+footer{
+    width: 1440px;
+    height: 428px;
+    margin-top: 20px;
+   
+}
+.footer{
+    width: 531px;
+    height: 221px;
+    margin: auto auto;
+   margin-top: 104px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.footer h1{
+    font-size: 100px;
+    font-weight: black;
+    color: rgba(78, 71, 255, 1);
+}
+.footer p{
+    color: rgba(137, 135, 161, 1);
+    margin-top: -76px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+/* footer */
 /* share style */
 .logo-text-color{
    color:  rgba(78, 71, 255, 1);
@@ -247,5 +289,11 @@ border: 1px solid rgb(255, 255, 255);
     font-size: 24px;
     line-height: 30px;
     color: rgba(37, 36, 50, 0.5);
+}
+.button-color-radius:hover{
+    background-color: aqua;
+}
+.footer ul li a:hover{
+    color: rgba(78, 71, 255, 1);
 }
 /* share style */
