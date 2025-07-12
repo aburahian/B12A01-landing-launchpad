@@ -6,6 +6,10 @@
   font-variation-settings:
     "wdth" 100;
 }
+main{
+    width: 1440px;
+    position: relative;
+}
 /* header start */
 .navbar-banner{
     width: 1440px;
